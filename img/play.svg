@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <linearGradient id="play-c" x1="50%" x2="50%" y1="0%" y2="97.32%">
+      <stop offset="0%" stop-color="#29C8FF"/>
+      <stop offset="100%" stop-color="#009BFF"/>
+    </linearGradient>
+    <path id="play-b" d="M17,30 C17,22.8198222 22.8193341,17 30,17 C37.1801778,17 43,22.8193341 43,30 C43,37.1801778 37.1806659,43 30,43 C22.8198222,43 17,37.1806659 17,30 Z M20,30 C20,35.523707 24.4766685,40 30,40 C35.523707,40 40,35.5233315 40,30 C40,24.476293 35.5233315,20 30,20 C24.476293,20 20,24.4766685 20,30 Z M33.7975,29.51875 C33.92125,29.6354167 34,29.80625 34,30 C34,30.19375 33.92125,30.3666667 33.7975,30.48125 L28.583125,33.9291667 C28.51375,33.9708333 28.45,34 28.373125,34 C28.16875,34 28.001875,33.8125 28,33.5833333 L28.001875,26.4166667 C28.001875,26.1875 28.16875,26 28.373125,26 C28.448125,26 28.51375,26.025 28.5775,26.0666667 L33.7975,29.51875 Z"/>
+    <filter id="play-a" width="100%" height="100%" x="0%" y="0%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+    </filter>
+  </defs>
+  <g fill="none" transform="translate(-17 -17)">
+    <use fill="#000" filter="url(#play-a)" xlink:href="#play-b"/>
+    <use fill="url(#play-c)" fill-rule="evenodd" xlink:href="#play-b"/>
+  </g>
+</svg>
