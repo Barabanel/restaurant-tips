@@ -2137,3 +2137,14 @@ End: footer
         display: none;
     }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    section.home-header .text,
+    section.home-features .text {
+        display: block;
+    }
+
+    section.home-features .features-bg div {
+        max-width: 40%;
+    }
+}
